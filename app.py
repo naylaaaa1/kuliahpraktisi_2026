@@ -1,5 +1,10 @@
 import streamlit as st
 
+st.set_page_config(
+  page_title="Mari Menabung",
+  layout="centered"
+)
+
 # Hirarki teks
 st.title("📊 Dashboard")
 st.header("Laporan Bulanan")
